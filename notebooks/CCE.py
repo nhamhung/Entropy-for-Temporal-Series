@@ -189,7 +189,7 @@ def conditional_entropy_with_comments(series, L, num_int):
 
     # L - 1 as embedding dimension
     SE_l, unique_l = shannon_entropy(series, L-1, num_int)
-    print("Calculate Shanon entropy for series with embedding dimension 'L-1':", SE, ", number of unique patterns:", unique)
+    print("Calculate Shanon entropy for series with embedding dimension 'L-1':", SE_l, ", number of unique patterns:", unique)
 
     print("Conditional entropy:", SE - SE_l)
     return SE - SE_l, unique
