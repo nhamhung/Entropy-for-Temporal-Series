@@ -16,6 +16,10 @@ Other References:
 
 [Dispersion Entropy: A Measure for Time-Series Analysis](https://ieeexplore-ieee-org.libproxy1.nus.edu.sg/document/7434608)
 
+https://github.com/nikdon/pyEntropy
+
+https://pypi.org/project/neurokit2/
+
 ## What is Entropy and Why is it used
 
 Entropy has become an appropriate measure to study time series from biological systems, which are characterised by complex dynamics. 
